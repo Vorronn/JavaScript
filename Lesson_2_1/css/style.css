@@ -1,5 +1,9 @@
-h1 {
-    color: green;
-    font-size: 50px;
-    font-family: Tahoma, sans-serif;
+div.window {
+    width: 300px;
+    height: 400px;
+    border: 1px solid blue;
+    border-radius: 50px;
+    margin: 20px auto;
+    box-shadow: 50px 50px 100px blue;
+    display: none;
 }

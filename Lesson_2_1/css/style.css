@@ -1,9 +1,11 @@
 div.window {
     width: 300px;
     height: 400px;
-    border: 1px solid blue;
+    border: 5px solid blue;
     border-radius: 50px;
     margin: 20px auto;
-    box-shadow: 50px 50px 100px blue;
+    box-shadow: 0 0 100px blue;
     display: none;
+    
 }
+

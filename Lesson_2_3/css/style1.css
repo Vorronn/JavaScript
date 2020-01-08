@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: Tahoma, sans-serif;
+    border: 5px solid red;
+    color: blue;
+    display: inline-block;
+    width: auto;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: Tahoma, sans-serif;
+    border-bottom: 1px solid green;
+    color: green;
+}
+
+p {
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+    color: gray;
+}
+
+span.bold {
+    font-weight: 900;
+}
+
+span.italic {
+    font-style: italic;
+}
+div.bt {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    font-family: arial, sans-serif;
+    font-size: 30px;
+    color: wheat;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+        
+}

@@ -1,0 +1,8 @@
+div.block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: green;
+    text-align: center;
+    color: blue;
+}

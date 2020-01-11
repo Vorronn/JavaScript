@@ -4,5 +4,13 @@
     margin: 5px;
     background-color: yellowgreen;
     color: red;
+    
+}
 
+div.block p {
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    justify-content: center;
 }

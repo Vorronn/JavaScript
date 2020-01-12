@@ -1,0 +1,65 @@
+body, div, h1, p, img, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+div.contaner {
+    margin: 5px;
+    border: 1px solid gray;
+    width: 50%;
+    height: auto;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+div.header {
+    background-color: gray;
+    padding: 10px;
+}
+
+h1 {
+    font-family: Tahoma, sans-serif;
+}
+
+div.nav {
+    font-size: 0;
+    border-bottom: 1px solid gray;
+}
+
+ul.tabs li {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 1px;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: 900;
+    background-color: gray;
+}
+
+div.content div {
+    margin: 3px;
+    font-size: 0;
+}
+
+div.content div p {
+    float: left;
+    font-size: 14px;
+    width: 79%;
+    height: auto;
+}
+
+div.content div img {
+    width: 19%;
+    float: right;
+}

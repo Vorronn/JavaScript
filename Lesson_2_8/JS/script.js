@@ -24,6 +24,7 @@
 //         console.log("Неверный символ");
 //     } else {
 //         this.value +=e.key;
+//         console.log(e.value);
 //     }
 //     return false;
 // };
@@ -43,15 +44,42 @@
 //     }
 // };
 
-document.onkeypress = function () {
-    console.log("keypress");
-};
+// document.onkeypress = function () {
+//     console.log("keypress");
+// };
 
-document.onkeydown = function () {
-    console.log("onkeydown");
-};
+// document.onkeydown = function () {
+//     console.log("onkeydown");
+// };
 
-document.onkeyup = function () {
-    console.log("onkeyup");
-};
+// document.onkeyup = function () {
+//     console.log("onkeyup");
+// };
 
+// ввод латинских символов строчных
+
+// document.querySelector("#test").onkeypress = function (e) {
+//     // console.log(e);
+//     if (e.keyCode < 65 || e.keyCode > 122) {
+//         console.log("недопустимые символы");
+//     } if (e.shiftKey == true) {
+//         e.shiftKey = false;
+//         // e.keyCode = e.keyCode + "32";
+//         console.log(e);    
+
+//     }
+// };
+
+// движение квадрата вправо влево при помощи  стрелок
+let left = 10;
+document.onkeydown = function (e) {
+    console.log(e);
+    let sq = document.querySelector(".sq");
+    if (e.key == "ArrowRight") {
+        left += 10;
+        sq.style.marginLeft = left + "px";
+    } if (e.key == "ArrowLeft") {
+        left -= 10;
+        sq.style.marginLeft = left + "px";
+    }
+};

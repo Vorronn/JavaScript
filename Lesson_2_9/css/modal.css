@@ -1,3 +1,47 @@
+
+
+.modal-wrap {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: relative;
+    
+}
+
+.exit {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    background-color: rgba(253, 0, 0, 0.7);
+}
+
+.button-menu {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+p.quest {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+
+}
+
 .hide {
     display: none;
 }

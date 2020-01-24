@@ -1,0 +1,11 @@
+div.conteiner {
+    width: 500px;
+    height: 1000px;
+    background-color: #808080;
+    border: 1px solid green;
+    box-shadow: 0 0 20px green
+}
+
+.box_1 {
+    display: none;
+}

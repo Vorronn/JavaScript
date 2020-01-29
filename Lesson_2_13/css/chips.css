@@ -5,3 +5,11 @@
     background-color: gray;
     color: white;
 }
+
+.chips-field {
+    width: 200px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+
+}

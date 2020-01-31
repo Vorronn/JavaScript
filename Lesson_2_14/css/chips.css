@@ -1,0 +1,15 @@
+.chips {
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 15px;
+    background-color: gray;
+    color: white;
+}
+
+.chips-field {
+    width: 200px;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+
+}

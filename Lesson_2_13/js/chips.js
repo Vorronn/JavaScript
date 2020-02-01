@@ -1,9 +1,10 @@
 
-function chips(message, timeRemove = 3000) {
+function chips(message, timeRemove = 3000, color = "rgba(0,0,0, 0.1)") {
     // if (timeRemove === undefined) timeRemove = 3000;
     let chips = document.createElement("div");
     chips.classList.add("chips");
     chips.innerHTML = message;
+    chips.style.backgroundColor = color;
     // document.querySelector("body").appendChild(chips);
     addChips(chips);
     setTimeout(function() { deleteChips(chips); } , timeRemove);
@@ -62,6 +63,6 @@ function addChips (chips) {
 // }
 
 document.querySelector("button").onclick = function () {
-chips("Hello", 5000);
+chips("Hello", 5000, "rgba(106,2,38,0.2)");
 };
 

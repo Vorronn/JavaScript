@@ -23,3 +23,13 @@ delete fruit.height;
 console.log(fruit);
 
 console.log(Object.keys(fruit).length);
+
+let arr = [1, 2, 3, 4, 5];
+
+arr.pop();
+arr.push(5);
+
+arr.shift();
+arr.unshift(1);
+
+console.log(arr);

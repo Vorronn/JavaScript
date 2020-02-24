@@ -70,6 +70,13 @@ start();
             }
             
         }
+    },
+    chooseIncome: function() {
+        let items = prompt("Что принесет дополнительный доходп? (Перечислите через запятую)" , "");
+        appData.income = items.split(", ");
+        appData.income.push(prompt("Может что-то еще?"));
+        appData.income.sort();
+
     }
 
 };

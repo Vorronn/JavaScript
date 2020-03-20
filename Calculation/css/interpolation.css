@@ -1,4 +1,4 @@
-div.modalWindow {
+.modalWindow {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -8,12 +8,31 @@ div.modalWindow {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 15px;
 }
 
-div.interpolation {
+.interpolation {
     width: 500px;
     height: 400px;
-    background-color: green;
+    background-color: white;
     position: relative;
+    border-radius: 15px;
+    border: solid 2px blue;
+
+}
+
+.nameInterpolation {
+    margin: 10px;
+    float: left;
+}
+
+.exitInterpolation {
+    margin: 10px;
+    border-radius: 50%;
+    background-color: red;
+    color: white;
+    float: right;
+}
+
+.hide {
+    display: none;
 }
